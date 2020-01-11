@@ -3,12 +3,18 @@ import Amaron from '../../components/amaron/amaron'
 import Forms from '../../components/form/form'
 import Contact from '../../components/contact/contact'
 import Maps from '../../components/maps/maps'
+import {Spring} from 'react-spring/renderprops'
 import {Container, Row, Col} from 'reactstrap'
 const BodyWeb = () =>(
-    <div>
-        
-        <Amaron/>
-        <Container>
+    
+    <Spring
+    From={{opacity: 0, marginTop: -5000}}
+    to={{opacity: 1, marginTop: 0}}>
+        {props =>
+        (
+            <div>
+            <Amaron/>
+            <Container style={props}>
             <h1 className="text-center mt-4 mb-4">Contact Us</h1>
             <Row>
                 <Col md="6">
@@ -20,6 +26,9 @@ const BodyWeb = () =>(
             </Row>
             <Maps/>
         </Container>
-    </div>
+        </div>
+        )
+        }
+    </Spring>
 )
 export default BodyWeb;

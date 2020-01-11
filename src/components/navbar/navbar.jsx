@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Navbar, NavbarBrand} from 'reactstrap'
 // , Nav, Collapse, NavbarToggler, NavItem
-import Logo from '../../images/logowebamaron.png'
+import Logo from '../../images/amaronbattery-logo.png'
 export default class NavBar extends Component{
     constructor(props) {
         super(props);
