@@ -2,7 +2,8 @@ import React from 'react'
 import {Form, FormGroup, Input, Label, Button} from 'reactstrap'
 
 const Forms = () =>(
-    <Form>
+    <div>
+    <Form action= "https://formspree.io/bennywen10@gmail.com" method="POST">
         <FormGroup>
             <Label>E-mail</Label>
             <Input type="email" name="email" placeholder="E-mail"/>
@@ -13,9 +14,10 @@ const Forms = () =>(
         </FormGroup>
         <FormGroup>
             <Label>Message</Label>
-            <Input type="text-area" name="Message" placeholder="Message"/>
+            <Input type="textarea" name="Message" placeholder="Message"/>
         </FormGroup>
-        <Button body inverse color="success">Submit</Button>
+        <Button color="success">Submit</Button>
     </Form>
+    </div>
 )
 export default Forms;

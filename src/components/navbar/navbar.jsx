@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import {Navbar, Nav, Collapse, NavbarBrand, NavbarToggler, NavItem} from 'reactstrap'
+import {Navbar, NavbarBrand} from 'reactstrap'
+// , Nav, Collapse, NavbarToggler, NavItem
 import Logo from '../../images/logowebamaron.png'
 export default class NavBar extends Component{
     constructor(props) {
@@ -30,26 +31,10 @@ export default class NavBar extends Component{
         >
             <NavbarBrand
             href="/"
+            
             >
                 <img src={Logo} alt={Logo} width="130px"/>
             </NavbarBrand>
-            <NavbarToggler
-                        onClick={this.toggle}
-                        style={{
-                        color: "white"
-                    }}/>
-                    
-            <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-                    
-                    <NavItem style={{paddingRight:"30px"}} className="text-center">
-                        <a style={{color:"white"}} href="/">
-                            Oli
-                        </a>
-                    </NavItem>
-                    
-                    </Nav>    
-            </Collapse>
             
         </Navbar>
             )
