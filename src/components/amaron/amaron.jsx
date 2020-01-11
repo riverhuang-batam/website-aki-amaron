@@ -26,7 +26,7 @@ const Amaron = () => (
                 <Col md="8">
                 <h4 className="text-center mt-2 mb-4">Why Use Amaron?</h4>
                 <p className='mt-4'>
-                    Kenapa memakai Aki Amaron
+                    Kenapa memakai Aki Amaron?
                 Apa kelebihan aki
                     ini?
                     Dari segi teknologi aki motor, Amaron menggunakan valve regulated tertutup untuk
