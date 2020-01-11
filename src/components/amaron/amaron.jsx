@@ -8,7 +8,7 @@ const Amaron = () => (
     <div>
         <Container className="mt-4">
             <div className="text-center">
-                <h1>Tentang Amaron</h1>
+                <h1>About Amaron</h1>
             </div>
             <Row>
                 <Col md="6" className="mt-4">
@@ -24,8 +24,9 @@ const Amaron = () => (
                 </p>
                 </Container>
                 <Col md="8">
-                <h4 className="text-center mt-2 mb-4">Kelebihan Aki Amaron</h4>
+                <h4 className="text-center mt-2 mb-4">Why Use Amaron?</h4>
                 <p className='mt-4'>
+                    Kenapa memakai Aki Amaron
                 Apa kelebihan aki
                     ini?
                     Dari segi teknologi aki motor, Amaron menggunakan valve regulated tertutup untuk
@@ -48,8 +49,10 @@ const Amaron = () => (
                 <p>
                     Fitur khusus yang terdapat pada produk aki Amaron yaitu bahan lead calcium tin
                     alloy, desain lempengan radial grid, AGM Separator, desain casing kokoh, flame
-                    arrestor, automated COS Design.
+                    arrestor, automated COS Design. 
                 </p>
+                
+                
                 </Col>
                 <Col md="4">
                 <img src={akiamaron1} alt={akiamaron1} width="100%"/>
