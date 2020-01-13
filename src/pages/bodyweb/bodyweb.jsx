@@ -3,6 +3,7 @@ import Amaron from '../../components/amaron/amaron'
 import Forms from '../../components/form/form'
 import Contact from '../../components/contact/contact'
 import Maps from '../../components/maps/maps'
+import Videos from '../../components/videos/videos'
 import {Spring} from 'react-spring/renderprops'
 import {Container, Row, Col} from 'reactstrap'
 const BodyWeb = () =>(
@@ -15,6 +16,7 @@ const BodyWeb = () =>(
             <div>
             <Amaron/>
             <Container style={props}>
+            <Videos/>
             <h1 className="text-center mt-4 mb-4">Contact Us</h1>
             <Row>
                 <Col md="6">
