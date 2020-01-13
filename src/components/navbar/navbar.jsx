@@ -31,7 +31,7 @@ export default class NavBar extends Component{
         >
             <NavbarBrand
             href="/"
-            
+            className="mx-auto"
             >
                 <img src={Logo} alt={Logo} width="130px"/>
             </NavbarBrand>
